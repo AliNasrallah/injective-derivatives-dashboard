@@ -312,7 +312,7 @@ def main():
             k1.metric("Price",            f"${current_price:,.4f}", f"{price_chg:+.2f}%")
             k2.metric("24h Volume",       f"${volume_24h:,.0f}")
             k3.metric("Open Interest",    f"${total_oi:,.0f}")
-            k4.metric("Funding Rate",     f"{funding_pct:.4f}%", help="Positive = longs pay shorts every hour")
+            k4.metric("Funding Rate",     f"{funding_pct:.4f}%")
             k5.metric("24h Liquidations", f"${liq_vol:,.0f}")
 
             st.divider()
