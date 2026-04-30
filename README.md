@@ -1,6 +1,6 @@
 # Injective Derivatives Dashboard
 
-https://injective-derivatives-dashboard-bazndcfmcrsvvkn6p3oxvi.streamlit.app/
+https://injective-derivatives-dashboard.streamlit.app/
 
 A live analytics dashboard for perpetual futures markets on the Injective blockchain.
 
