@@ -27,7 +27,8 @@ st.markdown("""
 [data-testid="stSidebar"] *        { color: #a0aabb !important; }
 
 /* Hide default streamlit chrome */
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer, { visibility: hidden; }
+header { background: #08090e !important; }
 [data-testid="stDecoration"] { display: none; }
 
 /* Tabs */
